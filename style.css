@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeText 2s ease-in-out 1s forwards;
+}
+
+@keyframes fadeText {
+  to {
+    opacity: 1;
+  }
+}
